@@ -1,0 +1,253 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #010001;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    padding-top: 53px;
+    
+}
+.container {
+    width: 90%;
+    max-width: 1231px;
+    margin: 0 auto;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;   
+}
+.link-center {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.link-end {
+    color: #808080;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.text {
+    width: 100%;
+    max-width: 382px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.title {
+    font-size: 64px;
+    line-height: 75px;
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+.description {
+    padding-top: 26px;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+}
+.center {
+    text-align: center;
+}
+
+.s1 {
+    padding-top: 32px;
+    max-height: 100%;
+    min-height: 750px;
+}
+
+
+
+.blocks {
+    position: relative;
+    max-width: 1230px;
+}
+
+.block-left {
+    padding-top: 15%;
+}
+
+.title-s2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.block-bottom  {
+    padding-top: 20%;
+}
+
+.title-block {
+    padding-bottom: 45px;
+}
+.description-block {
+    width: 100%;
+    max-width: 490px;
+}
+.description-block p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 29px;
+    color: #fff;
+}
+
+.table {
+    padding-top: 45px;
+}
+.table td {
+    font-size: 18px;
+    line-height: 180%;
+    padding-bottom: 11px;
+    padding-right: 130px;
+
+}
+
+
+.rocket {
+    position: absolute;
+    top: 0%;
+    right: 20%;
+    z-index: 99;
+    max-width: 220px;
+}
+
+.footer {
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+.logo {
+    padding-top: 10%;
+    width: 100%;
+    max-width: 138px;
+    margin: 0 auto;
+}
+
+.social-link {
+    padding-top: 43px;
+    display: flex;
+    justify-content: center;
+}
+.social-link a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 20px;
+}
+.copy-text {
+    padding-top: 28px;
+}
+.copy-text p {
+    text-align: center;
+    color: #808080;
+    font-size: 18px;
+    line-height: 21px;
+}
+.contact {
+    display: block;
+    margin: 30px auto;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 20px 87px 19px 86px;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+}
+.description:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 60px;
+    background-color: #fff;
+    margin: 26px auto;
+}
+
+
+.video {
+    width: 90%;
+    max-width: 1231px;
+    margin: 0 auto;
+    height: 750px;
+}
+
+
+
+.link-center:hover,
+.link-end:hover {
+    transform: scale(1.1);
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .links-center {
+        padding: 10px 0 10px;
+    }
+    .link-center {
+        margin-bottom: 10px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .table td {
+        padding: 0px 15px 11px 15px;
+    }
+    .rocket {
+        position: relative;
+        width: 100%;
+        max-width: 200px;
+        margin: auto;
+        display: block;
+        right: 0;
+    }
+    .social-link {
+        flex-wrap: wrap;
+    }
+    .social-link a {
+        padding-bottom: 10px;
+    }
+    .video {
+        width: 100%;
+        margin: 0;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .link-center {
+        font-size: 14px;
+    }
+    .link-end {
+        font-size: 14px;
+    }
+    .rocket {
+        position: relative;
+        display: block;
+        margin: auto;
+        right: 0;
+    }
+
+}

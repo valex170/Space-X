@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space X</title>
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script src="js/rellax.js"></script>
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="links-start">
+                    <img src="img/logo.svg" alt="SpaceX">
+                </div>
+                <div class="links-center">
+                    <a href="#" class="link-center">Falcon 9</a>
+                    <a href="#" class="link-center">Falcon Heavy</a>
+                    <a href="#" class="link-center">Dragon</a>
+                    <a href="#" class="link-center">Updates</a>
+                </div>
+                <div class="links-end">
+                    <a href="#" class="link-end">About</a>
+                    <a href="#" class="link-end">Gallery</a>
+                    <a href="#" class="link-end">Shop</a>
+                </div>
+            </div>
+            <div class="text">
+                <h1 class="title">Falcon Heavy</h1>
+                <p class="description  center">The most powerful operational rocket <br> in the world by a factor of two</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="video"></div>
+
+    <section class="s2">
+        <div class="container">
+            <div class="blocks">
+                <div class="block-left">
+                    <div class="block-top">
+                        <h2 class="title-s2">Falcon Heavy <br> Overview</h2>
+                    </div>
+                    <div class="block-top">
+                        <table class="table">
+                            <tr>
+                                <td>HEIGHT</td>
+                                <td>70 m / 229.6 ft</td>
+                            </tr>
+                            <tr>
+                                <td>DIAMETER</td>
+                                <td>12.2 m / 39.9 ft</td>
+                            </tr>
+                            <tr>
+                                <td>MASS</td>
+                                <td>1,420,788 kg / 3,125,735 lb</td>
+                            </tr>
+                            <tr>
+                                <td>PAYLOAD TO LEO</td>
+                                <td>63,800 kg / 140,660 lb</td>
+                            </tr>
+                            <tr>
+                                <td>PAYLOAD TO GTO	</td>
+                                <td>26,700 kg / 58,860 lb</td>
+                            </tr>
+                            <tr>
+                                <td>PAYLOAD TO MARS</td>
+                                <td>16,800 kg / 37,040 lb</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="block-bottom">
+                        <div class="title-block">
+                            <h2 class="title-s2">UNMATCHED <br> PERFORMANCE</h2>
+                        </div>
+                        <div class="description-block">
+                            <p>With more than 5 million pounds of thrust at liftoff, Falcon Heavy is 
+                            the most capable rocket flying. By comparison, the liftoff thrust of
+                            the Falcon Heavy equals approximately eighteen 747 aircraft at full
+                            power. Falcon Heavy can lift the equivalent of a fully loaded 737
+                            jetliner—complete with passengers, luggage and fuel—to orbit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-right">
+                    <img class="rellax rocket" data-rellax-speed="2" src="img/falcon-heavy.png" alt="">
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+        </div>
+        <div class="social-link">
+            <a href="#">Twitter</a>
+            <a href="#">Youtube</a>
+            <a href="#">Instagram</a>
+            <a href="#">Flickr</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Privacy</a>
+            <a href="#">Policy</a>
+        </div>
+        <div class="copy-text">
+            <p>For additional questions, contact rideshare@spacex.com</p>
+        </div>
+        <button class="contact">Contact us</button>
+    </footer>
+
+<link rel="stylesheet" href="css/vidbg.css">
+<script src="js/vidbg.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    var rellax = new Rellax('.rellax');
+    if (document.body.clientWidth < 767) {
+        rellax.destroy();
+    };        
+</script>
+
+
+</body>
+</html>
