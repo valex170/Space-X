@@ -153,6 +153,9 @@ html, body {
     line-height: 21px;
     margin-right: 20px;
 }
+.soc-link {
+    transition-duration: 0.5s;
+}
 .copy-text {
     padding-top: 28px;
 }
@@ -193,7 +196,8 @@ html, body {
 
 
 .link-center:hover,
-.link-end:hover {
+.link-end:hover,
+.soc-link:hover {
     transform: scale(1.1);
     font-size: 20px;
     transition-duration: 0.5s;
